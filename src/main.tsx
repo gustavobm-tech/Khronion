@@ -5,6 +5,5 @@ import { App } from "./App";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
-    <h1>Tamo Junto</h1>
   </StrictMode>
 );

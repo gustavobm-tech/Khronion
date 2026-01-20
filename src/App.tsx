@@ -1,10 +1,12 @@
+import { Heading } from "./components/Heading/Heading"
 import "./styles/global.css"
 
 
 export const App = () => {
   return (
     <>
-      <h1>Ola meu novo mundo !!!</h1>
+     < Heading />
+      <p> Iniciando o projeto do pomodoto com o nome de khronion. </p>
     </>
   );
 };
