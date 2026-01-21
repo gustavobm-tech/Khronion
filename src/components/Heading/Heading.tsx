@@ -1,10 +1,7 @@
-import styles from "./Heading.module.css";
-
-
-export const Heading = () =>{
-    return (
-        <>
-            <h1 className={styles.headingEscuro}>Ola Mundo !!!</h1>
-        </>
-    )
-}
+export const Heading = () => {
+  return (
+    <>
+      <h1>Ola Mundo !!!</h1>
+    </>
+  );
+};

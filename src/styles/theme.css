@@ -1,3 +1,24 @@
-:root{
-    --primary: purple;
+:root {
+  --gray-100: #f2f0e4;
+  --gray-200: #e3debf;
+  --gray-300: #c9c18a;
+  --gray-400: #9c9158;
+  --gray-500: #847b49;
+  --gray-600: #6a633b;
+  --gray-700: #4f4a2e;
+  --gray-800: #34311f;
+  --gray-900: #1c1a10;
+
+  --primary: #4681ba;
+  --primary-dark: #356492;
+  --primary-light: #5e95cc;
+
+  --sucess: rgb(55, 167, 55);
+  --warning: rgb(226, 226, 75);
+  --error: rgb(238, 49, 49);
+
+  --text-default: #e6e9f0;
+
+  --disabled: #555f7d;
+  --text-disables: #aab3cc;
 }
