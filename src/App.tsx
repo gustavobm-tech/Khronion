@@ -1,16 +1,15 @@
-import { Button } from "./components/button";
-import { Heading } from "./components/Heading";
+import { Sections } from "./components/Sections";
 import "./styles/global.css";
 import "./styles/theme.css";
 
 export const App = () => {
   return (
     <>
-      <Heading>
-        Olá Mundo !!!
-        <Button />
-      </Heading>
-      <p> Iniciando o projeto do pomodoro com o nome de Khronion. </p>
+      <Sections> MENU </Sections>
+      <Sections> LOGO </Sections>
+      <Sections> FORM </Sections>
+      <Sections> TESTE </Sections>
+      <Sections> FOOTER </Sections>
     </>
   );
 };

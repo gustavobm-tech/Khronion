@@ -1,7 +1,15 @@
-export const Sections = () => {
+type SectionsProps = {
+  children: React.ReactNode;
+};
+
+export const Sections = ({ children }: SectionsProps) => {
   return (
     <>
-      <section></section>
+      <div className="container">
+        <div className="content">
+          <section>{children}</section>
+        </div>
+      </div>
     </>
   );
 };
