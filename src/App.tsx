@@ -1,15 +1,21 @@
-import { Sections } from "./components/Sections";
 import "./styles/global.css";
 import "./styles/theme.css";
+
+import { Container } from "./components/Container";
+import { Heading } from "./components/Heading";
 
 export const App = () => {
   return (
     <>
-      <Sections> MENU </Sections>
-      <Sections> LOGO </Sections>
-      <Sections> FORM </Sections>
-      <Sections> TESTE </Sections>
-      <Sections> FOOTER </Sections>
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
+      <Container>
+        <Heading>TESTANDO</Heading>
+      </Container>
     </>
   );
 };
