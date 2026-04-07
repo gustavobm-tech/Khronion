@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 export const Menu = () => {
   return (
     <>
-      <div className={styles.menu}>
+      <nav className={styles.menu}>
         <a className={styles.menuLink} href="#">
           <HomeIcon />
         </a>
@@ -17,7 +17,7 @@ export const Menu = () => {
         <a className={styles.menuLink} href="#">
           <Sun />
         </a>
-      </div>
+      </nav>
     </>
   );
 };
