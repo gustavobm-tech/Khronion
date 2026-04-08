@@ -1,12 +1,14 @@
 import styles from "./styles.module.css";
 
-import { TimerIcon } from "lucide-react";
+type ButtonProps = {
+  icon: React.ElementType;
+};
 
-export const Button = () => {
+export const Button = ({ icon: Icon }: ButtonProps) => {
   return (
     <>
       <button className={styles.button}>
-        <TimerIcon />
+        <Icon />
       </button>
     </>
   );

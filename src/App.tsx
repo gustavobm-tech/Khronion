@@ -5,6 +5,7 @@ import { Container } from "./components/Container";
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { CountDown } from "./components/CountDown";
+import { Form } from "./components/Form";
 
 export const App = () => {
   return (
@@ -17,6 +18,9 @@ export const App = () => {
       </Container>
       <Container>
         <CountDown />
+      </Container>
+      <Container>
+        <Form />
       </Container>
     </>
   );
